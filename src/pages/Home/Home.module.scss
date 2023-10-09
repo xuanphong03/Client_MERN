@@ -1,0 +1,38 @@
+  .container {
+      width: 1200px;
+      margin: 40px auto;
+
+      .list-name {
+        font-weight: 600;
+        color: red;
+      }
+
+      .user_list {
+        width: 100%;
+        margin-top: 12px;        
+      }
+
+  }
+
+  .user-item {
+    height: 50px;
+    border: 1px solid #000;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+
+}
+
+
+
+tr{
+    background-color: #fff;
+}
+
+
+td:last-child {
+    width: 200px;
+}

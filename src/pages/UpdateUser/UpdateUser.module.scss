@@ -1,0 +1,26 @@
+.container {
+    width: 600px;
+    margin: 50px auto;
+    
+    h1 {
+        color: #28a745;
+        margin-bottom: 12px;
+    }
+
+    form {
+        padding: 12px;
+        border: 1px solid #000;
+
+        .form-group {
+            margin-bottom: 8px;
+    
+            .form-control {
+                width: 100%;
+                padding: 8px;
+                font-size: 1.6rem;
+            }
+        }
+    }
+
+    
+}

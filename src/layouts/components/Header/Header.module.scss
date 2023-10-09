@@ -1,0 +1,27 @@
+.container {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(84, 77, 81);
+    
+    .nav-item {
+        line-height: 60px;
+        min-width: 80px;
+        font-size: 2rem;
+        font-weight: 600;
+        padding-left: 24px;
+        padding-right: 24px;
+        color: #fff;
+
+        &.active {
+            color: red;
+            background-color: #65beee;
+        }
+
+        &:hover {
+            color: blue;
+            background-color: #ccc;
+        }
+    }
+}

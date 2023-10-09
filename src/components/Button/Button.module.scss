@@ -1,0 +1,43 @@
+.button-item {
+    min-width: 70px;
+    margin: 0 8px;
+    padding: 8px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.4rem;
+
+    &.primary {
+        background-color: #28a745;
+        border: #28a745;
+    }
+
+    &.secondary {
+        background-color: #dc3545;
+        border: #dc3545;
+        
+    }
+
+    &.create,
+    &.update {
+        padding: 12px;
+        margin: 8px 0 4px;
+        font-size: 1.6rem;
+    }
+
+    &.create {
+        background-color: #007bff;
+        border: #007bff;
+    }
+
+    &.update {
+        background-color: #28a745;
+        border: #28a745;
+        
+    }
+    
+    &:hover {
+        cursor: pointer;
+        opacity: 0.7;
+    }
+}
